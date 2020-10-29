@@ -1,0 +1,21 @@
+1)
+env : la coammande
+HOME : HOME=/home/ouardia
+
+2) echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+le PATH contient les chemins dans lesquels le shell cherche les programme à lancer
+
+3) ps -ef 
+
+4) sudo mv  ~/Desktop/lab6/script1.sh /opt/
+ 
+5)export PATH=$PATH:/opt
+on peut executer sans le ./
+
+6) il ne se passe rien 
+
+7 & 8 ) vim .bashrc  : et à la fin du script on rajoute export "PATH=$PATH:/opt"
+
+
